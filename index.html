@@ -10,21 +10,21 @@
               border-radius: 40%;
            }
 	.cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-    grid-gap: 20px;
-}
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+          grid-gap: 20px;
+         }
 
-.card {
-    display: grid;
-    grid-template-rows: max-content 200px 1fr;
-}
+       .card {
+       display: grid;
+       grid-template-rows: max-content 200px 1fr;
+        }
 
-.card img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
+      .card img {
+       object-fit: cover;
+       width: 100%;
+       height: 100%;
+      }
         </style>
     </head>
 <body>
@@ -47,51 +47,48 @@
                         <a href="https://www.instagram.com/cycloneit.corp/"><button class="button is-white is-outlined">Visit our Instagram</button></a>
                         <a href="https://www.instagram.com/cycloneit.corp/"><button class="button is-white is-outlined">Contact</button></a>
                     </div>
-                    <div class="cards">
-    <article class="card">
-        <header>
-            <h2>A short heading</h2>
-        </header>    
-        <img src="balloons.jpg" alt="Hot air balloons">
-        <div class="content">
-            <p> The idea of reaching the North Pole by means of balloons appears to have been entertained many years ago. </p>
+                    <div class="card">
+
+    <!-- En-tête de la carte -->
+    <div class="card-header">
+
+        <!-- Le masque pour l'effet d'assombrissement lors du survol -->
+        <div class="card-header-mask">
+            <div class="card-header-date">
+                <div class="card-header-date-day">12</div>
+                <div class="card-header-date-month">May</div>
+            </div>
         </div>
-            
-    </article>
-            
-     <article class="card">
-        <header>
-            <h2>A short heading</h2>
-        </header>    
-        <img src="balloons2.jpg" alt="Hot air balloons">
-        <div class="content">
-            <p>Short content.</p>
-        </div>
-        <footer>I have a footer!</footer>
-    </article>
-            
-    <article class="card">
-        <header>
-            <h2>A longer heading in this card</h2>
-        </header>
-        <img src="balloons.jpg" alt="Hot air balloons">
-        <div class="content">
-            <p>In a curious work, published in Paris in 1863 by Delaville Dedreux, there is a
-                suggestion for reaching the North Pole by an aerostat.</p>
-        </div>
-        <footer>I have a footer!</footer>
-    </article>
-    <article class="card">
-        <header>
-            <h2>A short heading</h2>
-        </header>
-        <img src="balloons2.jpg" alt="Hot air balloons">
-        <div class="content">
-            <p> The idea of reaching the North Pole by means of balloons appears to have been entertained many
-                years ago. </p>
+        
+    </div>
+
+    <!-- Corps de la carte -->
+    <div class="card-body">
+
+        <!-- En-tête du corps -->
+        <div class="card-body-header">
+            <div class="card-body-category">Photos</div>
+            <h1>True Paradise on Earth: Unknown Place</h1>
+            <p class="card-body-sentence">
+                They call it <span>"</span>God's Own Country.<span>"</span>
+            </p>
         </div>
 
-    </article>
+        <!-- Description cachée par l'en-tête -->
+        <p class="card-body-description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Molestias autem aliquid, recusandae maiores iste fuga,
+            explicabo dolor vitae magnam!
+        </p>
+
+        <!-- Pied de la carte -->
+        <div class="card-body-footer">
+            <i class="icon icon-time"></i> 6min. read
+            <i class="icon icon-comment"></i> 39 comments
+        </div>
+
+    </div>
+
 </div>
 		</div>
                 </div>
