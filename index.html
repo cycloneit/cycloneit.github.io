@@ -23,10 +23,10 @@
   width: 160%;
   filter: grayscale(0);
 }
-		.card-image {
+.card-image {
   height: 250px;/*1*/
   position: relative;/*2*/
-  overflow: hidden;/*3*/
+  
 }
 .card-image img {
   width: 150%;/*4*/
@@ -35,11 +35,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  filter: grayscale(1);/*6*/
-    /*7 - Transition */
-  transition-property: filter width; 
-  transition-duration: .3s;
-  transition-timing-function: ease;
+  
 }
 .card-body {
     text-align:center;  /*1*/
